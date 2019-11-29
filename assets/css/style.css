@@ -61,11 +61,7 @@
     font-size: 1.4em;
 }
 
-.opening-hour h4 {
-    text-transform: uppercase;
-    font-weight: bold;
-    padding-top: 25px;
-}
+
 
 .mapouter {
     margin-top: -50px;
@@ -86,6 +82,7 @@
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
+    padding-top: 20px;
 }
 
 .center-form {
@@ -111,6 +108,14 @@ button[type="submit"] {
     }
 }
 
+.hours-details {
+    padding-top: 30px;
+}
+
+.hours-details h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
 /* -----------------------------------------Footer */
 
 footer {
