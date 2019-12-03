@@ -57,9 +57,10 @@
 
 /* -----------------------------------------Contact Form */
 
-#location-details{
+#location-details {
     padding-top: 100px;
 }
+
 .opening-hour p {
     text-align: left;
     font-size: 1.4em;
@@ -103,6 +104,7 @@ button[type="submit"] {
 }
 
 /* create media queries so it look good on mobilephone */
+
 @media(min-width: 992px) {
     .center-form {
         padding-top: 30px;
@@ -123,21 +125,145 @@ button[type="submit"] {
 
 /* -----------------------------------------Classes */
 
-.class-time {
-  font-size: 1.2em;  
+.timetable-day {
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    font-size: 1.2em;
 }
 
-.class-timetable-day li {
+
+.timetable-day li {
     border: 2px solid blue;
     list-style-type: none;
     margin: 10px;
     overflow: auto;
     background: #ffa500;
+    border-radius: 10px 10px 10px 10px;
+}
+
+@media(min-width: 992px) {
+    .timetable-day li {
+        border: 2px solid blue;
+        list-style-type: none;
+        margin: 10px;
+        overflow: auto;
+        background: #ffa500;
+        border-radius: 10px 10px 10px 10px;
+    }
+}
+
+/* -----------------------------------------Membership & Training Cost */
+
+.gym-background {
+    width: 100%;
+    padding-top: 75px;
+}
+
+.class-content {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+/* -----------------------------------------Membership */
+
+.membership-header {
     text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 100%;
+    padding-top: 20px;
+    color: blue;
+    font-family: "Exo", sans-serif;
 }
 
 
+.membership-price {
+    border: 2px solid blue;
+    list-style-type: none;
+    margin: 10px;
+    overflow: auto;
+    background: #ffa500;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    padding-top: 20px;
+}
 
+
+.membership-price h4 {
+    text-transform: uppercase;
+    font-family: "Exo", sans-serif;
+    font-weight: bold;
+}
+
+.membership-price p {
+    text-transform: uppercase;
+    font-family: "Exo", sans-serif;
+}
+
+/* -----------------------------------------classes prices*/
+
+.class-header {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 100%;
+    padding-top: 20px;
+    color: blue;
+    font-family: "Exo", sans-serif;
+}
+
+
+.class-section {}
+
+.class-price {
+    border: 2px solid blue;
+    list-style-type: none;
+    margin: 10px;
+    overflow: auto;
+    background: #ffa500;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.class-price p {
+    text-transform: uppercase;
+    font-family: "Exo", sans-serif;
+}
+
+/* -----------------------------------------Personal Training */
+
+.personal-tainer-header {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 100%;
+    padding-top: 20px;
+    color: blue;
+    font-family: "Exo", sans-serif;
+}
+
+.personal-trainer-price {
+    border: 2px solid blue;
+    list-style-type: none;
+    margin: 10px;
+    overflow: auto;
+    background: #ffa500;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.personal-trainer-price p {
+    text-transform: uppercase;
+    font-family: "Exo", sans-serif;
+}
+
+.personal-trainer-price h4 {
+    text-transform: uppercase;
+    font-family: "Exo", sans-serif;
+    font-weight: bold;
+}
 
 /* -----------------------------------------Footer */
 
