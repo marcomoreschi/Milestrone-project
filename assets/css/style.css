@@ -143,7 +143,7 @@ button[type="submit"] {
     font-size: 1.2em;
 }
 
-.timetable-day li {
+.timetable-day .time {
     border: 2px solid blue;
     list-style-type: none;
     margin: 10px;
@@ -152,14 +152,35 @@ button[type="submit"] {
     border-radius: 10px 10px 10px 10px;
 }
 
-@media(min-width: 992px) {
-    .timetable-day li {
-        border: 2px solid blue;
-        list-style-type: none;
-        margin: 10px;
-        overflow: auto;
-        background: #ffa500;
-        border-radius: 10px 10px 10px 10px;
+
+.day h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Exo", sans-serif;
+    font-size: 1.2em;
+    color: blue;
+}
+
+
+@media (width: 1024px) {
+    .timetable-day {
+        width: 300px;
+        padding-top: 50px;
+    }
+}
+
+@media (width: 768px) {
+    .timetable-day {
+        width: 300px;
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 414px) {
+    .timetable-day {
+        margin-left: -20px;
+        margin-right: 20px;
+        padding-top: 15px;
     }
 }
 
@@ -231,8 +252,6 @@ button[type="submit"] {
 }
 
 
-.class-section {}
-
 .class-price {
     border: 2px solid blue;
     list-style-type: none;
@@ -288,18 +307,20 @@ button[type="submit"] {
 .footer {
     background-color: #ffa500;
     color: #fafafa;
-    min-height: 100px;
+    text-align:center;
+    bottom: 0;
 }
 
-@media (width: 1024px) {
-    .footer {
-        position: fixed;
-        bottom: 0;
-    }
+.footer ul {
+  padding-top:15px;
+}
+
+.footer p {
+  padding-bottom: 15px;
+  margin-bottom: 0;
 }
 
 .social-links {
-    padding-top: 20px;
     text-align: center;
 }
 
@@ -326,4 +347,12 @@ button[type="submit"] {
 .copyright {
     color: black;
     padding-top: 20px;
+    text-align:center;
+}
+
+@media (width: 1024px) {
+    .footer {
+        position: fixed;
+        bottom: 0;
+    }
 }
