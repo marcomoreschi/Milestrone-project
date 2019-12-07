@@ -78,7 +78,6 @@
     font-size: 1.4em;
 }
 
-
 .mapouter {
     margin-top: -50px;
 }
@@ -159,6 +158,7 @@ button[type="submit"] {
     font-family: "Exo", sans-serif;
     font-size: 1.2em;
     color: blue;
+    padding-top: 15px;
 }
 
 
@@ -302,6 +302,43 @@ button[type="submit"] {
     font-weight: bold;
 }
 
+/* -----------------------------------------gallery */
+
+.section-gallery img {
+    width: 384px;
+    height: 200px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.gallery {
+    color: blue;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.row-gallery {
+    text-align: center;
+}
+
+@media (max-width: 375px) {
+    .section-gallery img {
+        width: 100%;   
+    }
+}
+
+@media (width: 1024px) {
+    .section-gallery img {
+        height: 350px;
+        width: 500px;
+        margin-left: -5px;   
+    }
+}
+
+
 /* -----------------------------------------Footer */
 
 .footer {
@@ -351,6 +388,13 @@ button[type="submit"] {
 }
 
 @media (width: 1024px) {
+    .footer {
+        position: fixed;
+        bottom: 0;
+    }
+}
+
+@media (width: 768px) {
     .footer {
         position: fixed;
         bottom: 0;
