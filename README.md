@@ -24,8 +24,6 @@ Figma was used to design the initial layout (these can be used via the wireframe
 * Am I Responsive
 * Font awesome 
 
-## Features
-
 
 ## Testing
 I checked both mobile and desktop versions worked correctly displaying all the pages. Media alert works correctly providing a link direct to the media page. 
