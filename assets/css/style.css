@@ -134,6 +134,12 @@ button[type="submit"] {
     font-weight: bold;
 }
 
+@media (width: 768px) {
+    .class-enquiry {
+        height: 467px; 
+    }
+}
+
 /* -----------------------------------------Classes */
 
 .timetable-day {
@@ -302,6 +308,12 @@ button[type="submit"] {
     font-weight: bold;
 }
 
+@media (width:1024px) {
+    .class-content {
+        padding-bottom: 150px;
+    }
+}
+
 /* -----------------------------------------gallery */
 
 .section-gallery img {
@@ -335,6 +347,12 @@ button[type="submit"] {
         height: 350px;
         width: 500px;
         margin-left: -5px;   
+    }
+}
+
+@media (width: 768px) {
+    .section-gallery {
+        height: 810px; 
     }
 }
 
@@ -393,13 +411,5 @@ button[type="submit"] {
         bottom: 0;
     }
 }
-
-@media (width: 768px) {
-    .footer {
-        position: fixed;
-        bottom: 0;
-    }
-}
-
 
 
